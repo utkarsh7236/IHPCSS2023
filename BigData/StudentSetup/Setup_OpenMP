@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# cp Exercise directory
+cp -r ~training/Exercises ~/
+
+# install appropriate .bashrc
+cp -b ~training/StudentSetup/.bashrc.openmp ~/.bashrc
+
+# notify to reboot
+echo "OpenMP workshop configured. Logout and login again."

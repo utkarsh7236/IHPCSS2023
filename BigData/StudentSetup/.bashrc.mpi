@@ -1,0 +1,8 @@
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+module load openmpi/4.0.5-nvhpc21.2
+
+PATH=$PATH:./

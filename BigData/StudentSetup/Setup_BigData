@@ -1,8 +1,0 @@
-#!/bin/sh
-
-# cp Exercise directory
-cp -r ~training/BigData ~/
-
-# No special .bashrc required for Big Data
-# and so no notify to reboot
-echo "Workshop configured. Type ls to see your files."

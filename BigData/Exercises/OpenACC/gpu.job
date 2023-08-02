@@ -1,9 +1,0 @@
-#!/bin/bash
-#SBATCH -N 1
-#SBATCH -p GPU-shared
-#SBATCH --reservation=workshop
-#SBATCH --gpus=v100:1
-#SBATCH -t 5
-#SBATCH -A tra230005p
-
-echo "4000" | ./a.out

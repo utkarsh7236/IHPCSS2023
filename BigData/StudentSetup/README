@@ -1,5 +1,0 @@
-1) cp the appropriate Setup_* up one level as "Setup"
-
-2) Update the .bashrc.* if new modules desired
-
-3) For OpenACC and Boot Camp, update BOTH gpu.job's with new account
